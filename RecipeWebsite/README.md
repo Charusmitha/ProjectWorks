@@ -8,10 +8,10 @@
 
 From the main page when a user loads the application:
 
-- They can see a list of all recipe titles
-- They can click a recipe title to see the recipe (title, ingredients, and instructions)
-- They can add a new recipe (3 inputs: title, ingredients, and instructions)
-- When not on the main page, they can return to the main page
+- User can see a list of all recipe titles
+- User can click a recipe title to see the recipe (title, ingredients, and instructions)
+- User can add a new recipe (3 inputs: title, ingredients, and instructions)
+- When not on the main page, user can return to the main page
 
 Home Page
 
