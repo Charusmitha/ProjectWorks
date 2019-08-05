@@ -1,0 +1,6 @@
+{
+	"mongoURI": "mongodb+srv://Charu:MongoDB@mernstackproject-1yvib.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtToken": "mysecrettoken",
+	"githubClientId": "4e71ba5693bd99f01ef1",
+	"githubSecret": "6e59972587265793774bd507b1b249be7fb68fa8"
+}
