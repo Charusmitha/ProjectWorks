@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		2B3517F42344708600F0FD84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3517F32344708600F0FD84 /* AppDelegate.swift */; };
 		2B3517F62344708600F0FD84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3517F52344708600F0FD84 /* SceneDelegate.swift */; };
-		2B3517F82344708600F0FD84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3517F72344708600F0FD84 /* ViewController.swift */; };
 		2B3517FB2344708600F0FD84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3517F92344708600F0FD84 /* Main.storyboard */; };
 		2B3517FD2344708700F0FD84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3517FC2344708700F0FD84 /* Assets.xcassets */; };
 		2B3518002344708700F0FD84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3517FE2344708700F0FD84 /* LaunchScreen.storyboard */; };
 		2B35180B2344708700F0FD84 /* StockTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35180A2344708700F0FD84 /* StockTickerTests.swift */; };
 		2B3518162344708700F0FD84 /* StockTickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3518152344708700F0FD84 /* StockTickerUITests.swift */; };
+		2B3518242344759500F0FD84 /* StocksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3518232344759500F0FD84 /* StocksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		2B3517F02344708600F0FD84 /* StockTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3517F32344708600F0FD84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B3517F52344708600F0FD84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B3517F72344708600F0FD84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B3517FA2344708600F0FD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B3517FC2344708700F0FD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3517FF2344708700F0FD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		2B3518112344708700F0FD84 /* StockTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3518152344708700F0FD84 /* StockTickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTickerUITests.swift; sourceTree = "<group>"; };
 		2B3518172344708700F0FD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B3518232344759500F0FD84 /* StocksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				2B3517F32344708600F0FD84 /* AppDelegate.swift */,
 				2B3517F52344708600F0FD84 /* SceneDelegate.swift */,
-				2B3517F72344708600F0FD84 /* ViewController.swift */,
 				2B3517F92344708600F0FD84 /* Main.storyboard */,
 				2B3517FC2344708700F0FD84 /* Assets.xcassets */,
 				2B3517FE2344708700F0FD84 /* LaunchScreen.storyboard */,
 				2B3518012344708700F0FD84 /* Info.plist */,
+				2B3518232344759500F0FD84 /* StocksTableViewController.swift */,
 			);
 			path = StockTicker;
 			sourceTree = "<group>";
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B3517F82344708600F0FD84 /* ViewController.swift in Sources */,
 				2B3517F42344708600F0FD84 /* AppDelegate.swift in Sources */,
 				2B3517F62344708600F0FD84 /* SceneDelegate.swift in Sources */,
+				2B3518242344759500F0FD84 /* StocksTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
