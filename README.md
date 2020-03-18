@@ -2,7 +2,7 @@
 
 * This is a recipe search iOS application built on XCode using Swift. This application users to search for their favourite recipes and add/remove them from favourites.
 
-##Highlights
+## Highlights
 
 * The application is built on XCode using Cocoatouch framework
 * Used segues to design the flow of the application
